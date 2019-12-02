@@ -7,21 +7,21 @@ const Header = props => {
     return (
         <View style={styles.header}>
             <Text style={styles.headerTitle}> {props.title}</Text>
+            {props.children}
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     header: {
-        width:'100%',
-        height:90,
-        paddingTop:36,
-        backgroundColor:colors.primary,
+        width: '100%',
+        height: 90,
+        backgroundColor: colors.primary,
         alignItems: 'center',
-        justifyContent:'center',
+        justifyContent: 'center',
     },
     headerTitle: {
-        color:'black',
+        color: 'black',
         fontSize: 18,
 
     }
