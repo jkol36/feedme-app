@@ -5,6 +5,71 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>03E92EA3-3A38-40C3-8FB2-0A057557ACA0</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>03E92EA3-3A38-40C3-8FB2-0A057557ACA0.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>feedme project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>feedme</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>597020061.24632096</real>
+			<key>timeStoppedRecording</key>
+			<real>597020071.25352097</real>
+			<key>title</key>
+			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>03E92EA3-3A38-40C3-8FB2-0A057557ACA0</string>
+		</dict>
+		<key>3AAE33F9-B400-4ACD-844B-09396D8313EE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3AAE33F9-B400-4ACD-844B-09396D8313EE.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>feedme project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>feedme</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>597021096.42627394</real>
+			<key>timeStoppedRecording</key>
+			<real>597021102.32207596</real>
+			<key>title</key>
+			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>3AAE33F9-B400-4ACD-844B-09396D8313EE</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -32,4 +32,8 @@ target 'feedme' do
 
   use_unimodules!
 
+  pod 'RNAwesomeCardIO', :path => '../node_modules/react-native-awesome-card-io'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
 end
