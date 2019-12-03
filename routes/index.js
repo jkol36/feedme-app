@@ -9,6 +9,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import AppNavigator from '../navigators/appNavigators';
 import ChefDetails from '../screens/ChefDetails';
 import Ordering from '../screens/Ordering';
+import Checkout from '../screens/Checkout';
 
 
 
@@ -16,7 +17,8 @@ const StackNavigator = createStackNavigator({
     Chefs,
     MyFeedme,
     ChefDetails,
-    Ordering
+    Ordering,
+    Checkout
 });
 
 const TabNavigator = createBottomTabNavigator({

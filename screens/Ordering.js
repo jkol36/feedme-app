@@ -24,7 +24,7 @@ export default class Ordering extends React.Component {
               <Button style={{flex:2}} title="Change"/>
             </View>
             <Button style={styles.button} title="Add more items from Chef" />
-            <Button style={styles.button} title="Contine to checkout" />
+            <Button style={styles.button} onPress={() => this.props.navigation.navigate('Checkout')} title="Contine to checkout" />
 
 
           </Card>
