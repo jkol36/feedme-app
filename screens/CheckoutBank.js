@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import StripeCheckout from '../components/StripeCheckout';
 import PlaidAuthenticator from 'react-native-plaid-link';
 
 
 
-export default class Checkout extends Component {
+export default class CheckoutBank extends Component {
   constructor(props) {
     super(props)
     this.onClose = this.onClose.bind(this);

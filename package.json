@@ -15,7 +15,9 @@
     "react-native": "0.59.10",
     "react-native-awesome-card-io": "^0.8.2",
     "react-native-checkout": "^0.0.8",
+    "react-native-credit-card-input": "^0.4.1",
     "react-native-gesture-handler": "^1.5.2",
+    "react-native-keyboard-spacer": "^0.4.1",
     "react-native-paper": "^3.2.1",
     "react-native-plaid-link": "^1.4.4",
     "react-native-ratings": "^6.5.0",
@@ -30,6 +32,7 @@
     "react-navigation-material-bottom-tabs": "^2.1.5",
     "react-navigation-stack": "^1.10.3",
     "react-navigation-tabs": "^2.6.0",
+    "stripe-client": "^1.1.5",
     "yarn": "^1.19.2"
   },
   "devDependencies": {
