@@ -22,7 +22,7 @@ class ChefDetails extends React.Component {
         <ScrollView>
           {this.props.navigation.state.params.chef.specialties.map((item, index) => {
             return (
-              <TouchableOpacity onPress={()=> this.props.navigation.navigate('Ordering', Object.assign(item, {itemName:item.name}, this.props.navigation.state.params.chef))}>
+              <TouchableOpacity key={index} onPress={()=> this.props.navigation.navigate('Ordering', Object.assign(item, {itemName:item.name}, this.props.navigation.state.params.chef))}>
                 <Card key={index}>
                   <Image style={{ width: '100%', height: 150, borderRadius: 10 }} source={{ uri: item.imgUrl }} />
             <Text style={styles.heading}> {item.name} ${item.price}</Text>
