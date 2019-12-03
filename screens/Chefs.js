@@ -22,6 +22,9 @@ export default class Chefs extends React.Component {
       if (item.name.match(regex)) {
         results.push(item)
       }
+      if(item.knownFor.match(regex)) {
+        results.push(item)
+      }
       else if (this.state.query.length === 0) {
         return this.props.results
       }
@@ -73,7 +76,7 @@ Chefs.defaultProps = {
   results: [
     {
       name: 'Jasmine',
-      specialties: [{ name: 'Eggs', remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
+      specialties: [{ name: 'Eggs', remaining: 2, price:18.75, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
       knownFor: 'Humus',
       category: 'Breakfast and Lunch',
       mealsSold: 0,
@@ -85,8 +88,8 @@ Chefs.defaultProps = {
     {
       name: 'Jack',
       specialties: [
-        { name: 'Eggs', remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' },
-        { name: 'Lasagna', remaining: 4, rating:3, description: 'Enjoy My Delicious Lasagna. Feeds 6.', imgUrl: 'https://images.pexels.com/photos/2765875/pexels-photo-2765875.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' },
+        { name: 'Eggs', remaining: 2, price:18.75, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' },
+        { name: 'Lasagna', remaining: 4, price:19, rating:3, description: 'Enjoy My Delicious Lasagna. Feeds 6.', imgUrl: 'https://images.pexels.com/photos/2765875/pexels-photo-2765875.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' },
 
       ],
       knownFor: 'Israeli Salad',
@@ -99,7 +102,7 @@ Chefs.defaultProps = {
     },
     {
       name: 'Jon Kolman',
-      specialties: [{ name: 'Eggs', remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
+      specialties: [{ name: 'Eggs', price:18.75, remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
       knownFor: 'Lasagna',
       category: 'Breakfast and Lunch',
       mealsSold: 0,
@@ -110,7 +113,7 @@ Chefs.defaultProps = {
     },
     {
       name: 'Shakira',
-      specialties: [{ name: 'Eggs', remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
+      specialties: [{ name: 'Eggs', price:18.75, remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
       knownFor: 'Egg Salad',
       category: 'Breakfast and Lunch',
       mealsSold: 0,
@@ -121,7 +124,7 @@ Chefs.defaultProps = {
     },
     {
       name: 'Leslie',
-      specialties: [{ name: 'Eggs', remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
+      specialties: [{ name: 'Eggs',  price:18.75, remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
       knownFor: 'Tuna Salad',
       category: 'Breakfast and Lunch',
       mealsSold: 0,
@@ -132,7 +135,7 @@ Chefs.defaultProps = {
     },
     {
       name: 'Deborah',
-      specialties: [{ name: 'Eggs', remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
+      specialties: [{ name: 'Eggs', price:18.75, remaining: 2, rating:5, description: 'a variety of different dishes available', imgUrl: 'https://media.phillyvoice.com/media/images/food-eggs.2e16d0ba.fill-735x490.jpg' }],
       knownFor: 'StirFry',
       category: 'Lunch and Dinner',
       mealsSold: 0,

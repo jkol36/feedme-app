@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>03E92EA3-3A38-40C3-8FB2-0A057557ACA0</key>
+		<key>20D5953A-E3D6-4249-A621-7224AB64A18B</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,39 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>03E92EA3-3A38-40C3-8FB2-0A057557ACA0.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>feedme project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>feedme</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>597020061.24632096</real>
-			<key>timeStoppedRecording</key>
-			<real>597020071.25352097</real>
-			<key>title</key>
-			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>03E92EA3-3A38-40C3-8FB2-0A057557ACA0</string>
-		</dict>
-		<key>3AAE33F9-B400-4ACD-844B-09396D8313EE</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3AAE33F9-B400-4ACD-844B-09396D8313EE.xcactivitylog</string>
+			<string>20D5953A-E3D6-4249-A621-7224AB64A18B.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -62,13 +30,45 @@
 			<key>signature</key>
 			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>597021096.42627394</real>
+			<real>597021808.90319896</real>
 			<key>timeStoppedRecording</key>
-			<real>597021102.32207596</real>
+			<real>597021810.35723603</real>
 			<key>title</key>
 			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>3AAE33F9-B400-4ACD-844B-09396D8313EE</string>
+			<string>20D5953A-E3D6-4249-A621-7224AB64A18B</string>
+		</dict>
+		<key>99BB228E-EFEB-4A3F-BF55-6BA6B1F77616</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>99BB228E-EFEB-4A3F-BF55-6BA6B1F77616.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>feedme project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>feedme</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>597021836.46692705</real>
+			<key>timeStoppedRecording</key>
+			<real>597021839.16098702</real>
+			<key>title</key>
+			<string>Building workspace feedme with scheme feedme and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>99BB228E-EFEB-4A3F-BF55-6BA6B1F77616</string>
 		</dict>
 	</dict>
 </dict>
