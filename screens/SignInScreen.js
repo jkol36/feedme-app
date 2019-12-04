@@ -1,28 +1,55 @@
 import React from 'react';
-import { View, Text, TextInput, PasswordInput, Button } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
+import Card from '../components/Card';
+import Header from '../components/Header';
 
 
 export default function SignIn(props) {
-  const [Username, onChangeUsername] = React.useState('Username');
-  const [Password, onChangePassword] = React.useState('password');
+  const [Username, onChangeUsername] = React.useState('');
+  const [Password, onChangePassword] = React.useState('');
   return (
 
     <>
-      <View style={{marginTop:50, alignContent:'center', alignItems:'center'}}> 
+      <Header style={styles.heading}> 
         <Text style={{alignItems:'center'}}> Welcome to feedme</Text>
-      </View>
-      <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1, marginTop:100 }}
-        onChangeText={text => onChangeUsername(text)}
-        value={Username}
-      />
-      <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1, marginTop:100 }}
-        onChangeText={text => onChangePassword(text)}
-        value={Password}
-        secureTextEntry={true}
-      />
-      <Button title='Sign in' onPress={props.signIn} />
+      </Header>
+      <Card>
+        <TextInput
+          onChangeText={text => onChangeUsername(text)}
+          value={Username}
+          underlineColorAndroid='transparent'
+          placeholder="Enter your username"
+          placeholderTextColor='black'
+          style={styles.inputFields}
+        />
+      </Card>
+      <Card>
+        <TextInput
+          onChangeText={text => onChangePassword(text)}
+          value={Password}
+          style={styles.inputFields}
+          underlineColorAndroid='transparent'
+          placeholder="Enter your password"
+          placeholderTextColor='black'
+          secureTextEntry={true}
+        />
+      </Card>
+      
+      <Button title='Sign in' style={styles.signinButton} onPress={props.onSignIn} />
     </>
   )
 }
+
+const styles = StyleSheet.create({
+  heading: {
+    marginTop:50,
+    alignItems: 'center'
+  },
+  inputFields: {
+    marginTop:50
+  },
+  signinButton: {
+    padding:200
+  }
+  
+})
