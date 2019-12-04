@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		09B94C17111B45E48B1D8FF8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1C1B1D9FFC6466EB064C205 /* MaterialCommunityIcons.ttf */; };
 		117C533E802944298709B9C9 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C70E31CE30B4D33AB8F538E /* EvilIcons.ttf */; };
@@ -20,6 +21,7 @@
 		690CEA67FA5C42B09E3CBC8A /* RNStripeCheckoutTests.xctest in Frameworks */ = {isa = PBXBuildFile; fileRef = 414A465B4B98469BBD73F831 /* RNStripeCheckoutTests.xctest */; };
 		7CC2D46AB7144263B252D511 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24AA33D2B00B4211B0159210 /* SimpleLineIcons.ttf */; };
 		7FFAB18D8BEC4228B2FECEB7 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B95A1C545336427398B00375 /* Ionicons.ttf */; };
+		9D8A72E855844964890A4CF9 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8452D8BB86A4292BC49C15C /* libRNFirebase.a */; };
 		A6799A5B9E924330902B15E1 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C23A17FD5834CC1BB65302A /* FontAwesome5_Brands.ttf */; };
 		CF2A10358C0041AE82D58245 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39875E683C7A434198400985 /* Feather.ttf */; };
 		D0185C1BFB804FD1939C40E9 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A696E07CA104527A181E43B /* Entypo.ttf */; };
@@ -60,11 +62,19 @@
 			remoteGlobalIDString = 2D02E4901E0B4A5D006451C7;
 			remoteInfo = "RNStripeCheckout-tvOSTests";
 		};
+		01DEA06123961E10009A5DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11531B84AB2742C2A50E9FDF /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		0A696E07CA104527A181E43B /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		11531B84AB2742C2A50E9FDF /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* feedme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feedme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = feedme/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = feedme/AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +99,7 @@
 		733B30C22AB9BDAF45949DBE /* Pods-feedme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedme.debug.xcconfig"; path = "Target Support Files/Pods-feedme/Pods-feedme.debug.xcconfig"; sourceTree = "<group>"; };
 		79DF539C1A96916CBE112182 /* Pods-feedme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedme.release.xcconfig"; path = "Target Support Files/Pods-feedme/Pods-feedme.release.xcconfig"; sourceTree = "<group>"; };
 		ACEADE2473674501A72E2DED /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		B8452D8BB86A4292BC49C15C /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		B95A1C545336427398B00375 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		BD78F5E8E1944B148C39F831 /* RNStripeCheckout.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNStripeCheckout.xcodeproj; path = "../node_modules/react-native-checkout/ios/RNStripeCheckout.xcodeproj"; sourceTree = "<group>"; };
 		C01CB18B01213962901DA312 /* libPods-feedme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-feedme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +117,7 @@
 				F7A73ACAFDCDBE45859C3D05 /* libPods-feedme.a in Frameworks */,
 				DDFCF04A2B614F77AA9805A4 /* RNStripeCheckout.app in Frameworks */,
 				690CEA67FA5C42B09E3CBC8A /* RNStripeCheckoutTests.xctest in Frameworks */,
+				9D8A72E855844964890A4CF9 /* libRNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +129,7 @@
 			children = (
 				4FF6EB02B46B4A1BAF215DDB /* RNStripeCheckout.app */,
 				414A465B4B98469BBD73F831 /* RNStripeCheckoutTests.xctest */,
+				B8452D8BB86A4292BC49C15C /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -128,6 +141,14 @@
 				01DEA01A2395D2AE009A5DA1 /* RNStripeCheckoutTests.xctest */,
 				01DEA01C2395D2AE009A5DA1 /* RNStripeCheckout-tvOS.app */,
 				01DEA01E2395D2AE009A5DA1 /* RNStripeCheckout-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01DEA05E23961E10009A5DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DEA06223961E10009A5DA1 /* libRNFirebase.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				BD78F5E8E1944B148C39F831 /* RNStripeCheckout.xcodeproj */,
+				11531B84AB2742C2A50E9FDF /* RNFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -268,6 +290,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 01DEA05E23961E10009A5DA1 /* Products */;
+					ProjectRef = 11531B84AB2742C2A50E9FDF /* RNFirebase.xcodeproj */;
+				},
+				{
 					ProductGroup = 01DEA0112395D2AE009A5DA1 /* Products */;
 					ProjectRef = BD78F5E8E1944B148C39F831 /* RNStripeCheckout.xcodeproj */;
 				},
@@ -306,6 +332,13 @@
 			fileType = wrapper.cfbundle;
 			path = "RNStripeCheckout-tvOSTests.xctest";
 			remoteRef = 01DEA01D2395D2AE009A5DA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		01DEA06223961E10009A5DA1 /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = 01DEA06123961E10009A5DA1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -479,11 +512,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-checkout/ios/RNStripeCheckout",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = feedme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/feedme\"",
 					"\"$(SRCROOT)/feedme\"",
 					"\"$(SRCROOT)/feedme\"",
 				);
@@ -507,11 +542,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-checkout/ios/RNStripeCheckout",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = feedme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/feedme\"",
 					"\"$(SRCROOT)/feedme\"",
 					"\"$(SRCROOT)/feedme\"",
 				);
